@@ -5,7 +5,7 @@ CLASS zcl_fm_params_rtts_apack DEFINITION
 
   PUBLIC SECTION.
 
-    INTERFACES zif_apack_manifest.
+    INTERFACES if_apack_manifest.
 
     METHODS: constructor.
 
@@ -18,7 +18,7 @@ ENDCLASS.
 CLASS zcl_fm_params_rtts_apack IMPLEMENTATION.
 
   METHOD constructor.
-    zif_apack_manifest~descriptor = VALUE #(
+    if_apack_manifest~descriptor = VALUE #(
         group_id     = 'github.com/sandraros'
         artifact_id  = 'FM-params-RTTS'
         version      = '0.2'
