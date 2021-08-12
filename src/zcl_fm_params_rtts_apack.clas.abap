@@ -21,7 +21,7 @@ CLASS zcl_fm_params_rtts_apack IMPLEMENTATION.
     if_apack_manifest~descriptor = VALUE #(
         group_id     = 'github.com/sandraros'
         artifact_id  = 'FM-params-RTTS'
-        version      = '0.2'
+        version      = '1.0'
         repository_type = 'abapGit'
         git_url      = 'https://github.com/sandraros/FM-params-RTTS.git'
         dependencies = VALUE #( ) ).
